@@ -1,0 +1,6 @@
+{
+  "name": "Kinetic Dignity - Singapore PMA Mobility & Compliance",
+  "description": "High-end personal mobility aid cockpit, telemetry dashboard, and official LTA Active Mobility compliance checker.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
