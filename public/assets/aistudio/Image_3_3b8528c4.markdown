@@ -1,0 +1,230 @@
+---
+name: Kinetic Dignity
+colors:
+  surface: '#f7f9fb'
+  surface-dim: '#d8dadc'
+  surface-bright: '#f7f9fb'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f6'
+  surface-container: '#eceef0'
+  surface-container-high: '#e6e8ea'
+  surface-container-highest: '#e0e3e5'
+  on-surface: '#191c1e'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#2d3133'
+  inverse-on-surface: '#eff1f3'
+  outline: '#76777d'
+  outline-variant: '#c6c6cd'
+  surface-tint: '#565e74'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#131b2e'
+  on-primary-container: '#7c839b'
+  inverse-primary: '#bec6e0'
+  secondary: '#006a61'
+  on-secondary: '#ffffff'
+  secondary-container: '#86f2e4'
+  on-secondary-container: '#006f66'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00201c'
+  on-tertiary-container: '#009485'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dae2fd'
+  primary-fixed-dim: '#bec6e0'
+  on-primary-fixed: '#131b2e'
+  on-primary-fixed-variant: '#3f465c'
+  secondary-fixed: '#89f5e7'
+  secondary-fixed-dim: '#6bd8cb'
+  on-secondary-fixed: '#00201d'
+  on-secondary-fixed-variant: '#005049'
+  tertiary-fixed: '#71f8e4'
+  tertiary-fixed-dim: '#4fdbc8'
+  on-tertiary-fixed: '#00201c'
+  on-tertiary-fixed-variant: '#005048'
+  background: '#f7f9fb'
+  on-background: '#191c1e'
+  surface-variant: '#e0e3e5'
+typography:
+  display:
+    fontFamily: Outfit
+    fontSize: 3.5rem
+    fontWeight: '700'
+    lineHeight: 4rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Outfit
+    fontSize: 2.5rem
+    fontWeight: '600'
+    lineHeight: 3rem
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Outfit
+    fontSize: 2rem
+    fontWeight: '600'
+    lineHeight: 2.5rem
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Outfit
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Outfit
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.875rem
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '500'
+    lineHeight: 1.375rem
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 1rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 0.75rem
+    fontWeight: '700'
+    lineHeight: 1rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2.5rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system recasts personal mobility aids not as clinical or geriatric necessities, but as high-end consumer hardware and lifestyle technology. The brand personality balances quiet technical mastery with human warmth: dignified, empowering, confident, and unapologetically life-affirming. It replaces institutional disability aesthetics with the craftsmanship of luxury electric mobility and precision consumer engineering.
+
+The visual style blends modern corporate precision with soft, warm tactile cues. Crisp geometric typographic hierarchies structure every viewport, while generous whitespace and softened forms prevent visual fatigue. Surfaces feel physical, polished, and structured rather than sterile. Every interface interaction conveys effortless mechanical reliability and intuitive control, honoring both primary users navigating high-density urban residential spaces and multi-generational caregivers managing telemetry and logistics.
+
+## Colors
+
+The palette establishes an immediate atmosphere of authority and security, disrupted intentionally by vibrant empowerment accents.
+
+- **Primary (`#0F172A`)**: Deep Navy Slate anchor. Used for primary CTAs, structural navigation chrome, high-emphasis icons, and definitive borders. Conveys mechanical precision and solidity.
+- **Secondary (`#0D9488`)**: Deep Warm Teal. Signals proactive energy, active states, key interactive indicators, and primary focus rings. Preserves WCAG AAA compliance on light backdrops.
+- **Tertiary (`#14B8A6`)**: Vivid Coastal Teal. Deployed selectively for real-time telemetry metrics, battery/range badges, and micro-accents.
+- **Neutral (`#F8FAFC`)**: Soft Cloud canvas. Replaces glaring stark white backgrounds with a glare-resistant, soothing surface that reduces eye fatigue during extended usage.
+- **Neutral Strong (`#1E293B`)**: High-contrast slate applied to all core body copy and critical data labels, maintaining a strict contrast ratio above 7:1 against light card surfaces.
+
+All color combinations strictly surpass WCAG AAA standards for text legibility. State transitions must never rely on hue changes alone; color shifts must pair with shape, iconographic, or structural weight changes.
+
+## Typography
+
+Typography prioritizes effortless legibility across tremors, low vision, and motion vibration. 
+
+- **Display & Headlines (`Outfit`)**: A geometric grotesque chosen for its open counters, balanced circular curves, and confident posture. It infuses technical precision without looking cold.
+- **Body & Labels (`Plus Jakarta Sans`)**: Highly legible humanist sans with wide apertures and tall x-height, engineered for clarity at small sizes or when viewing displays mounted at arm's length on mobility controls.
+
+The baseline scale starts comfortably at 16px (`1rem`) for standard body text, scaling to 18px (`1.125rem`) for critical user instructions. Never use text below 12px under any circumstance. Headings on mobile viewports swap automatically to dedicated mobile scale tokens to prevent awkward line breaks and overflow clipping.
+
+## Layout & Spacing
+
+The spatial architecture is built upon an 8pt rhythmic grid, structured to ensure generous touch buffers and unambiguous visual separation between tasks.
+
+### Layout Mechanics
+- **Grid Architecture**: 12-column responsive fluid grid on desktop (max-width `1280px`), adapting to 8 columns on tablet and 4 columns on mobile.
+- **Margins & Gutters**: Outer canvas margins contract from `2.5rem` (`margin`) on desktop to `1.25rem` (`margin-mobile`) on small screens, preserving screen real estate while protecting touch affordances from phone edges. Column gutters adjust from `1.5rem` (`gutter`) down to `1rem` (`gutter-mobile`).
+
+### Spacing Application
+- `space-xs` (4px): Micro-alignment between paired glyphs and their accompanying text strings.
+- `space-sm` (8px): Gaps inside compact badges, tag groups, and inline status markers.
+- `space-md` (16px): Internal padding for compact cards, inputs, and button component interiors.
+- `space-lg` (24px): Standard internal padding for cards, modals, and spacing between related stacked groups.
+- `space-xl` (40px): Section breaks, container separation, and primary screen module deltas.
+
+All interactive elements must guarantee an absolute minimum hit target area of `48px x 48px` regardless of their visual boundary size, honoring motor-impaired touch requirements.
+
+## Elevation & Depth
+
+Visual hierarchy employs low-contrast outlines layered over soft, slate-tinted ambient shadows to construct a tangible sense of physical surface relief. This dual approach ensures depth remains perceivable under high glare, outdoor sunlight, and for users with low contrast sensitivity.
+
+- **Flat / Ground Level (`z-0`)**: Pure canvas background `#F8FAFC`. Devoid of shadows; defined purely through perimeter gutters and subtle structural boundaries.
+- **Level 1 (Card & Module Resting)**: `#FFFFFF` surface accompanied by a subtle 1px border (`#E2E8F0`) and an ambient tinted drop shadow: `0 4px 12px -2px rgba(15, 23, 42, 0.05), 0 2px 4px -1px rgba(15, 23, 42, 0.03)`. Surfaces look grounded and touchable.
+- **Level 2 (Hover / Active Cards / Dropdowns)**: Elevated cards under active selection or direct interaction lift using an expanded shadow: `0 12px 24px -4px rgba(15, 23, 42, 0.08), 0 4px 8px -2px rgba(15, 23, 42, 0.04)`, alongside an accent border shift to `#0D9488`.
+- **Level 3 (Modals, Action Sheets, Floating Safety Alerts)**: Floated overlays feature prominent depth: `0 24px 48px -12px rgba(15, 23, 42, 0.18)` backed by a slate scrim (`rgba(15, 23, 42, 0.6)`) to suppress visual distractions behind the active task.
+
+## Shapes
+
+The design system adopts a roundedness factor of 2. Forms are approachable and ergonomically friendly, eliminating clinical sharp edges while maintaining structural architectural stability.
+
+- **Base Corners (`rounded`, 0.5rem / 8px)**: Applied to input elements, dropdown triggers, and interactive list items.
+- **Container Corners (`rounded-lg`, 1rem / 16px)**: Applied to content cards, modal sheets, telemetry dashboards, and battery status blocks.
+- **Hero Containers (`rounded-xl`, 1.5rem / 24px)**: Applied to prominent feature overview banners and primary route navigation sheets.
+- **Full Radius (`rounded-full`)**: Strictly reserved for interactive chips, toggle switches, status pills, and circular floating trigger buttons.
+
+## Components
+
+### Buttons
+- **Primary**: Solid Deep Navy Slate (`#0F172A`) with pure white label (`#FFFFFF`). Minimum height: `52px`. Padding: `0.75rem 1.75rem`. Corner radius: `8px`. Active/Pressed state transitions to `#1E293B`.
+- **Secondary / Action**: Teal tone (`#0D9488`) with pure white label. Serves as direct action triggers (e.g., "Schedule Route", "Connect Assist").
+- **Tertiary / Outlined**: 1.5px solid border in `#CBD5E1`, transparent fill, text in `#0F172A`. Transitions to `#F1F5F9` on hover.
+- **Focus Rings**: Mandatory 3px solid `#0D9488` with a 2px outer offset for all keyboard and accessibility focus states.
+
+### Chips & Badges
+- **Status Badges**: Pill-shaped (`rounded-full`), `space-xs` vertical by `space-sm` horizontal padding. Range/Battery status chips pair an icon with high-contrast text over a 15% opacity tinted background (e.g., Teal tint `#CCFBF1` with `#0F766E` text).
+- **Filter Chips**: Height `40px` to maintain generous finger targets. Unselected: `#FFFFFF` border `#E2E8F0`. Selected: `#0F172A` fill with white text.
+
+### Cards & Telemetry Surfaces
+- Structured using `#FFFFFF` fill, `16px` corner radius, and Level 1 elevation. Padding is consistently `space-lg` (24px).
+- Internal content organizes cleanly into header (status and device ID), body (battery gauge, route parameters), and footer action rows separated by faint dividers (`#F1F5F9`).
+
+### Input Fields
+- Minimum height of `52px` with a generous font size of `1rem` to avoid automated zoom on mobile devices.
+- Labels are always persistently visible above the input (never placeholder-only). Helper copy sits below with an icon.
+- Resting border: 1.5px `#CBD5E1`. Focus: 2px solid `#0D9488` with subtle outer glow.
+
+### Checkboxes & Radio Controls
+- Minimum touch target dimension of `48px x 48px` surrounding a visual control box of `24px x 24px`.
+- High-contrast checked state with solid `#0F172A` fill and bold white checkmark icon (2.5px stroke weight). Radio points use an inner dot with a 3px separation ring.
+
+### Lists
+- Separated with clean borders (`#F1F5F9`) or contained in discrete card rows with `space-sm` vertical spacing.
+- Each interactive row features a minimum height of `60px`, primary text stacked above secondary meta-text, and a clear trailing action chevron or button indicator.
+
+### Specialized Hardware Components
+- **Battery & Range Telemetry Gauge**: High-visibility segmented bar with high-contrast numerical mileage readouts.
+- **Emergency / Caregiver Summon Bar**: Distinct, high-emphasis fixed sticky footer component with tactile, high-contrast actuation button.
